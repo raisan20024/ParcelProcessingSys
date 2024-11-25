@@ -8,7 +8,7 @@ public class ParcelMap {
     public ParcelMap() {
         this.parcels = new HashMap<>();
     }
-    public void addPackage(Parcel parcel) {
+    public void addParcel(Parcel parcel) {
         parcels.put(parcel.getParcelID(), parcel);
     }
     public Parcel getParcel(String parcelID) {
